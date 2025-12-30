@@ -9,17 +9,23 @@ export default function HomeHero() {
             </span>
 
             <h1 className="mt-4 text-4xl md:text-6xl font-bold leading-tight">
-              World Cup 2026 <span className="opacity-70">Analytics Dashboard</span>
+              World Cup 2026{" "}
+              <span className="opacity-70">Analytics Dashboard</span>
             </h1>
 
-            <div className="w-100%">
-              <img src="img_1.webp" alt="cover" />
+            <div className="mt-8 w-full overflow-hidden rounded-2xl">
+              <img
+                src="img_1.webp"
+                alt="World Cup 2026 cover"
+                className="w-full max-h-[420px] object-cover"
+              />
             </div>
-            
 
-            <p className="mt-6 max-w-2xl text-base font-semibold text-black md:text-lg opacity-70">
-              <em>Explore squads, player performance, rankings, and form trends
-              for the upcoming ICC Men’s T20 World Cup.</em>
+            <p className="mt-6 max-w-2xl text-base md:text-lg opacity-70">
+              <em>
+                Explore squads, player performance, rankings, and form trends
+                for the upcoming ICC Men’s T20 World Cup.
+              </em>
             </p>
           </div>
         </div>
