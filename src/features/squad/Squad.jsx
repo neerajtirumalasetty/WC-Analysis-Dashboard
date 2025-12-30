@@ -5,10 +5,9 @@ import SquadSection from "../../components/players/SquadSection";
 import PlayerOverlay from "../player/PlayerOverlay";
 import { squads } from "../../data/squads";
 
-export default function Squad() {
+export default function Squad({onPlayerSelect}) {
   const { team } = useParams();
   const navigate = useNavigate();
-  const [selectedPlayer, setSelectedPlayer] = useState(null);
 
   const squad = squads[team];
 
@@ -65,7 +64,7 @@ export default function Squad() {
             key={role}
             title={role}
             players={players}
-            onPlayerClick={setSelectedPlayer}
+            onPlayerClick={onPlayerSelect}
           />
         ))}
       </div>

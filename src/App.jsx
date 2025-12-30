@@ -29,7 +29,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/teams" element={<Teams />} />
-            <Route path="/teams/:team" element={<Squad />} />
+            <Route path="/teams/:team" element={<Squad onPlayerSelect={setActivePlayer}/>} />
           </Routes>
         </main>
       </div>

@@ -8,6 +8,5 @@ export const allPlayers = Object.values(squads)
   }));
 
 function squadTeam(player) {
-  // simple helper for now
   return "India";
 }

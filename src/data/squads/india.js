@@ -1,6 +1,6 @@
 export const indiaSquad = {
   team: "India",
-  label: "India T20 World Cup 2026 Squad (Probable)",
+  label: "India T20 World Cup 2026 Squad",
 
   players: [
     // Batters
@@ -12,7 +12,9 @@ export const indiaSquad = {
       rank: 3,
       image: "/indian_squad/surya.jpg",
       stats: {
-        yearlyRuns: [414, 498, 605, 572, 441],
+        batting:{
+          yearlyRuns: [240, 1160, 720, 410, 300],
+        }        
       }
     },
     {
@@ -23,7 +25,10 @@ export const indiaSquad = {
       rank: 25,
       image: "/indian_squad/abhi.jpg",
       stats: {
-        yearlyRuns: [414, 498, 605, 572, 441],
+        batting:{
+          yearlyRuns: [0, 0, 250, 340, 310],
+        }
+        
       }
     },
     {
@@ -34,7 +39,10 @@ export const indiaSquad = {
       rank: 30,
       image: "/indian_squad/tilak.jpg",
       stats: {
-        yearlyRuns: [120, 340, 410, 480, 360] ,
+        batting:{
+          yearlyRuns: [0, 0, 310, 420, 360],
+        }
+        
       }
     },
     {
@@ -45,7 +53,10 @@ export const indiaSquad = {
       rank: 42,
       image: "/indian_squad/rinku.jpg",
       stats: {
-        yearlyRuns: [300, 420, 430, 390, 410],
+        batting:{
+          yearlyRuns: [0, 0, 170, 290, 260],
+        }
+        
       }
     },
 
@@ -58,7 +69,12 @@ export const indiaSquad = {
       rank: 12,
       image: "/indian_squad/hardik.jpg",
       stats: {
-        yearlyRuns: [414, 498, 605, 572, 441],
+        batting:{
+          yearlyRuns: [260, 190, 350, 300, 280],
+        },
+        bowling:{
+          yearlyWickets: [12, 10, 14, 11, 9],
+        }  
       }
     },
     {
@@ -69,7 +85,12 @@ export const indiaSquad = {
       rank: 15,
       image: "/indian_squad/axar.jpg",
       stats: {
-        yearlyRuns: [414, 498, 605, 572, 441],
+        batting:{
+          yearlyRuns: [90, 110, 140, 160, 150],
+        },
+        bowling:{
+          yearlyWickets: [14, 18, 20, 17, 15],
+        }    
       }
     },
     {
@@ -80,7 +101,12 @@ export const indiaSquad = {
       rank: 40,
       image: "/indian_squad/dube.jpg",
       stats: {
-        yearlyRuns: [414, 498, 605, 572, 441],
+        batting:{
+          yearlyRuns: [0, 80, 210, 260, 230],
+        },
+        bowling:{
+          yearlyWickets: [0, 2, 4, 3, 2],
+        }       
       }
     },
     {
@@ -91,7 +117,12 @@ export const indiaSquad = {
       rank: 50,
       image: "/indian_squad/washi.jpg",
       stats: {
-        yearlyRuns: [414, 498, 605, 572, 441],
+        batting:{
+          yearlyRuns: [60, 70, 90, 110, 100],
+        },
+        bowling:{
+          yearlyWickets: [6, 5, 7, 8, 6],
+        },         
       }
     },
 
@@ -104,7 +135,9 @@ export const indiaSquad = {
       rank: 2,
       image: "/indian_squad/bhoom.jpg",
       stats: {
-        yearlyRuns: [414, 498, 605, 572, 441],
+        bowling:{
+          yearlyWickets: [18, 16, 14, 17, 15],
+        }  
       }
     },
     {
@@ -115,7 +148,9 @@ export const indiaSquad = {
       rank: 20,
       image: "/indian_squad/arsh.jpg",
       stats: {
-        yearlyRuns: [414, 498, 605, 572, 441],
+        bowling:{
+          yearlyWickets: [14, 16, 18, 20, 19],
+        }        
       }
     },
     {
@@ -126,7 +161,9 @@ export const indiaSquad = {
       rank: 10,
       image: "/indian_squad/kuldeep.jpg",
       stats: {
-        yearlyRuns: [414, 498, 605, 572, 441],
+        bowling:{
+          yearlyWickets: [8, 12, 18, 15, 14],
+        }        
       }
     },
     {
@@ -137,7 +174,9 @@ export const indiaSquad = {
       rank: 60,
       image: "/indian_squad/harshit.jpg",
       stats: {
-        yearlyRuns: [414, 498, 605, 572, 441],
+        bowling:{
+          yearlyWickets: [0, 0, 0, 6, 8],
+        }        
       }
     },
     {
@@ -148,7 +187,9 @@ export const indiaSquad = {
       rank: 55,
       image: "/indian_squad/varun.jpg",
       stats: {
-        yearlyRuns: [414, 498, 605, 572, 441],
+        bowling:{
+          yearlyWickets: [12, 14, 10, 13, 11],
+        }        
       }
     },
 
@@ -161,7 +202,9 @@ export const indiaSquad = {
       rank: 28,
       image: "/indian_squad/sanju.jpg",
       stats: {
-        yearlyRuns: [414, 498, 605, 572, 441],
+        batting:{
+          yearlyRuns: [140, 90, 360, 330, 290],
+        }        
       }
     },
     {
@@ -172,7 +215,9 @@ export const indiaSquad = {
       rank: 35,
       image: "/indian_squad/kishan.jpg",
       stats: {
-        yearlyRuns: [414, 498, 605, 572, 441],
+        batting: {
+          yearlyRuns: [220, 300, 260, 240, 210],
+        }  
       }
     },
   ],

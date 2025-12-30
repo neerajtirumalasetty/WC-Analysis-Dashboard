@@ -4,12 +4,28 @@ export default function TeamCard({ team, onClick }) {
   return (
     <div
       onClick={available ? onClick : undefined}
-      className={`group relative cursor-pointer rounded-2xl bg-base-200 p-6 shadow-lg transition-all
-        ${available ? "hover:scale-[1.03] hover:shadow-2xl" : "opacity-50 cursor-not-allowed"}
+      className={`
+        group relative
+        rounded-2xl
+        bg-base-200
+        p-6
+        shadow-md
+        transition-all duration-200 ease-out
+        ${
+          available
+            ? "cursor-pointer hover:-translate-y-1 hover:shadow-xl"
+            : "cursor-not-allowed opacity-60"
+        }
       `}
     >
-      {/* Flag */}
-      <div className="mb-4 h-16 w-24 overflow-hidden rounded-lg bg-base-300">
+      
+      <div className="
+        mb-4
+        h-16 w-24
+        overflow-hidden
+        rounded-lg
+        bg-base-300
+      ">
         <img
           src={flag}
           alt={name}
@@ -17,15 +33,21 @@ export default function TeamCard({ team, onClick }) {
         />
       </div>
 
-      {/* Team Info */}
-      <h3 className="text-lg font-semibold">{name}</h3>
+      
+      <h3 className="text-lg font-semibold leading-tight">
+        {name}
+      </h3>
       <p className="mt-1 text-sm opacity-60">
         ICC T20 Rank #{rank}
       </p>
 
-      {/* Badge */}
+      
       {!available && (
-        <span className="absolute right-4 top-4 badge badge-outline">
+        <span className="
+          absolute right-4 top-4
+          badge badge-outline
+          opacity-80
+        ">
           Coming Soon
         </span>
       )}
